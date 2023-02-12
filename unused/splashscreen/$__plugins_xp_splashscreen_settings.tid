@@ -1,0 +1,22 @@
+caption: Switch ~SplashScreen
+tags: $:/tags/ControlPanel/Appearance
+title: $:/plugins/xp/splashscreen/settings
+
+\define selectSplashScreen()
+<$select tiddler='$:/SplashScreen'>
+<$list filter='[all[shadows+tiddlers]tag[$:/tags/SplashScreen]]'>
+<option value={{{ [<currentTiddler>addprefix[{{]addsuffix[}}]] }}}><$view field='caption'/></option>
+</$list>
+</$select>
+\end
+
+
+<div style="margin-left: 25px;">
+
+<$checkbox tiddler="$:/SplashScreen" tag="$:/tags/RawMarkupWikified/TopBody">
+Change splashscreen: <<selectSplashScreen>>
+</$checkbox>
+
+</div>
+
+> See also: $:/SplashScreen

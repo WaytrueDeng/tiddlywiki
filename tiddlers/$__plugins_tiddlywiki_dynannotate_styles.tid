@@ -1,0 +1,47 @@
+created: 20220826085555864
+modified: 20220826085617985
+tags: $:/tags/Stylesheet
+title: $:/plugins/tiddlywiki/dynannotate/styles
+type: text/vnd.tiddlywiki
+
+\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline
+
+.tc-dynannotation-wrapper {
+	position: relative;
+}
+
+.tc-dynannotation-annotation-overlay {
+	position: relative;
+	background: rgba(255,255,0,0.3);
+	mix-blend-mode: multiply;
+}
+
+.tc-dynannotation-search-overlay {
+	position: relative;
+	pointer-events: none;
+	background: rgba(255,0,0,0.3);
+}
+
+.tc-dynannotation-search-overlay-blurred {
+	background: rgba(255,0,0,0.3);
+	mix-blend-mode: multiply;
+	border-radius: 4px;
+	filter: blur(2px);
+}
+
+@keyframes ta-dynannotation-search-overlay-animated { to { background-position: 100% 100% } }
+
+.tc-dynannotation-search-overlay-animated {
+	mix-blend-mode: multiply;
+	background: repeating-linear-gradient(-45deg, #ff8 0, #dd8 25%, transparent 0, transparent 50%) 0 / .6em .6em;
+	animation: ta-dynannotation-search-overlay-animated 12s linear infinite;
+}
+
+.tc-dynannotate-snippet-highlight {
+	background: #efef53;
+}
+
+.tc-dynannotation-example-info {
+	background: #ffa;
+	padding: 1em;
+}

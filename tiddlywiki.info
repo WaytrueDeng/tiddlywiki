@@ -1,0 +1,58 @@
+{
+    "description": "Basic client-server edition",
+    "plugins": [
+        "tiddlywiki/dynannotate",
+        "tiddlywiki/dynaview",
+        "tiddlywiki/tiddlyweb",
+        "tiddlywiki/filesystem",
+        "tiddlywiki/highlight",
+	      "tiddlywiki/pluginlibrary",
+	      "tiddlywiki/markdown",
+	      "tiddlywiki/katex",
+	      "tiddlywiki/codemirror",
+	      "tiddlywiki/codemirror-autocomplete",
+	      "tiddlywiki/codemirror-closebrackets",
+	      "tiddlywiki/codemirror-closetag",
+	      "tiddlywiki/codemirror-keymap-vim",
+	      "tiddlywiki/codemirror-mode-css",
+        "tiddlywiki/codemirror-keymap-vim",
+	      "tiddlywiki/codemirror-mode-htmlembedded",
+	      "tiddlywiki/codemirror-mode-htmlmixed",
+	      "tiddlywiki/codemirror-mode-javascript",
+	      "tiddlywiki/codemirror-mode-markdown",
+        "tiddlywiki/codemirror-search-replace",
+	      "tiddlywiki/codemirror-mode-x-tiddlywiki",
+	      "tiddlywiki/codemirror-mode-xml"
+    ],
+    "themes": [
+        "tiddlywiki/vanilla",
+        "tiddlywiki/snowwhite"
+    ],
+    "build": {
+        "index": [
+            "--rendertiddler",
+            "$:/plugins/tiddlywiki/tiddlyweb/save/offline",
+            "index.html",
+            "text/plain"
+        ],
+        "static": [
+            "--rendertiddler",
+            "$:/core/templates/static.template.html",
+            "static.html",
+            "text/plain",
+            "--rendertiddler",
+            "$:/core/templates/alltiddlers.template.html",
+            "alltiddlers.html",
+            "text/plain",
+            "--rendertiddlers",
+            "[!is[system]]",
+            "$:/core/templates/static.tiddler.html",
+            "static",
+            "text/plain",
+            "--rendertiddler",
+            "$:/core/templates/static.template.css",
+            "static/static.css",
+            "text/plain"
+        ]
+    }
+}

@@ -1,0 +1,6 @@
+config.central-topic: 820d55ec-fb6e-4eda-aac0-bf7d20f4d8fa
+config.physics_mode: false
+id: 660cdc06-5c84-4d2d-ad59-2d23a47669e0
+isview: true
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/胃内消化
+type: text/vnd.tiddlywiki
