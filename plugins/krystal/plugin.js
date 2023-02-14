@@ -23,7 +23,7 @@ Sets plugin behavior
 
     window.addEventListener("resize", header);
 
-    const throttledTiddlerFrameEffects = throttle(tiddlerFrameEffects, 100);
+    const throttledTiddlerFrameEffects = throttle(tiddlerFrameEffects, 10);
     window.addEventListener("scroll", throttledTiddlerFrameEffects, true);
 
     $tw.rootWidget.addEventListener("tm-remove", tiddlersCount);
@@ -73,7 +73,9 @@ Sets plugin behavior
   }
 
   function header() {
-    const height = document.querySelector(".krystal-header").offsetHeight;
+    const height = document.querySelector(
+      ".krystal-header.krystal-header--big"
+    ).offsetHeight;
     document.documentElement.style.setProperty(
       "--krystal-header-height",
       `${height}px`
