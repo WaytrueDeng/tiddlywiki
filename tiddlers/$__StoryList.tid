@@ -1,2 +1,3 @@
-list: DASHBOARD
+list: home
 title: $:/StoryList
+type: text/vnd.tiddlywiki
