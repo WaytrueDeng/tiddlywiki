@@ -1,0 +1,21 @@
+created: 20230710065217253
+modified: 20230710070215870
+tags: $:/tags/ViewTemplate
+title: newMDtiddler
+type: text/vnd.tiddlywiki
+
+
+\define newMarkdown()
+    <$action-sendmessage
+        $message="tm-new-tiddler"
+        title=<<currentTiddler>>
+        type="text/x-markdown"
+       />
+\end
+<$list filter="[all[current]is[missing]!is[shadow]]" variable=nul>or click 
+<$button class=<<tv-config-toolbar-class>> selectedClass="tc-selected" tooltip="New Markdown" actions=<<newMarkdown>>>
+  {{$:/plugins/tiddlywiki/markdown/images/new-markdown-button}}
+</$button>
+to make New Markdown Tiddler.
+</$list>
+

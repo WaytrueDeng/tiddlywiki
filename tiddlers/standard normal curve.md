@@ -1,0 +1,2 @@
+- [[what is the difference of normal curve and standard normal curve]]
+- [[how to change normal curve to standard]]

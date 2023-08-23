@@ -1,0 +1,5 @@
+- the normal curve is theoritical and defined for a continuous variable
+- the normal curve is symmerical bell-shaped so it's lower half is the mirror image of the upper half
+- peaks above a point midway along the horizontal spread
+- the tails of normal curve extend infinitely far
+- ==the value of mean, mode, median are the same of the normal curve==

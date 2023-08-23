@@ -1,0 +1,2 @@
+- a positive and negative sign indicates whether it is  above or below the mean
+- the value of z score indicates the size of its deviation from the mean in standard deviation
