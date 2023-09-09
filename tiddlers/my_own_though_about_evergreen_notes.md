@@ -1,8 +1,3 @@
----
-title: my own though about evergreen notes
-publish: true
----
-
 It’s hard to write notes that are worth developing over time. These principles help:
 dada
 - Evergreen notes should be atomic

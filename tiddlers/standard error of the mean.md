@@ -1,0 +1,5 @@
+“The standard error of the mean equals the standard deviation of the population divided by the square root of the sample size.” ([Witte and Witte, 2017, p. 174](zotero://select/library/items/ZCQCSGM8)) ([pdf](zotero://open-pdf/library/items/4S8NXKZ6?page=192&annotation=D2UBCKVJ)
+
+$\sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}$
+
+“It’s not surprising that variability should be smaller in sampling distributions than in populations. The population standard deviation reflects variability among individual observations, and it is directly affected by any relatively large or small observations within the population. On the other hand, the standard error of the mean reflects variability among sample means, each of which represents a collection of individual observations.” ([Witte and Witte, 2017, p. 176](zotero://select/library/items/ZCQCSGM8)) ([pdf](zotero://open-pdf/library/items/4S8NXKZ6?page=194&annotation=WW8BZZKF))

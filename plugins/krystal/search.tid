@@ -1,5 +1,0 @@
-tags: $:/plugins/rmnvsl/krystal/header $:/plugins/rmnvsl/krystal/header-small
-title: $:/plugins/rmnvsl/krystal/search
-type: text/vnd.tiddlywiki
-
-{{$:/core/ui/SideBarSegments/search}}

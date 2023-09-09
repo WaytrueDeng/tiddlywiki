@@ -1,0 +1,3 @@
+“All possible random samples refers not to the number of samples of size 100 required to survey completely the local population of freshmen but to the number of different ways in which a single sample of size 100 can be selected from this population.” ([Witte and Witte, 2017, p. 170](zotero://select/library/items/ZCQCSGM8)) ([pdf](zotero://open-pdf/library/items/4S8NXKZ6?page=188&annotation=9KLEJKEX))
+
+所有可能的随机样本指的不是要完全调查当地新生群体所需的 100 个样本的数量，而是可以从这个群体中抽取 100 个样本的不同方法的数量。

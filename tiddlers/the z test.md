@@ -1,0 +1,6 @@
+- [[what the z in z test means]]
+- [[what is common and rare outcomes]]
+- [[how to convert raw score to z]]
+- [[how to convert a sample mean to z]]
+- [[what is the null hypothesis and the alternative hypothesis]]
+- [[decision rule]]

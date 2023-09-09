@@ -1,0 +1,5 @@
+- [[what is a sampling distribution]]
+- [[how to understand all possible samples]]
+- [[mean of all sample mean]]
+- [[standard error of the mean]]
+- [[shape of the sampling distribution]]

@@ -1,0 +1,1 @@
+“The mean of all sample means always equals the population mean.” ([Witte and Witte, 2017, p. 174](zotero://select/library/items/ZCQCSGM8)) ([pdf](zotero://open-pdf/library/items/4S8NXKZ6?page=192&annotation=VUMFH9UV))

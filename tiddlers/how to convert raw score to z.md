@@ -1,0 +1,1 @@
+$\text{Standard score}=\frac{\text{rawscore}-\text{mean}}{\text{standard deviation}}$

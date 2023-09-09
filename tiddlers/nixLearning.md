@@ -1,9 +1,3 @@
----
-title: nixLearning
-publish: true
----
-
-
 - [[nixPackageManage]]
 - [[nixInstall]]
 - [[nixGL]]

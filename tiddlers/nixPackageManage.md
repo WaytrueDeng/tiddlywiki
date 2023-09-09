@@ -1,8 +1,3 @@
----
-title: nixPackageManage
-publish: true
----
-
 
 ##  基础软件包管理
   - 如何理解nix-channel的作用？
